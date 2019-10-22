@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="UnitTesting.Service.Category.CategoryServiceReadAll" /><Add Test="UnitTesting.Service.Category.CategoryServiceCreate" /><Add Test="UnitTesting.Service.Category.CategoryServiceUpdate" /><Add Test="UnitTesting.Service.Category.CategoryServiceDelete" /><Add Test="UnitTesting.Service.Category.CategoryServiceRead" /></Playlist>

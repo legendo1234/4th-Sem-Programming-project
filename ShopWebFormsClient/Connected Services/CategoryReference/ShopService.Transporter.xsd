@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ShopService.Transporter" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ShopService.Transporter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="TCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="timestamp" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TCategory" nillable="true" type="tns:TCategory" />
+  <xs:complexType name="ArrayOfTCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TCategory" nillable="true" type="tns:TCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTCategory" nillable="true" type="tns:ArrayOfTCategory" />
+</xs:schema>

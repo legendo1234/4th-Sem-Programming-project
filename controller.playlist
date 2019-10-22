@@ -1,0 +1,7 @@
+<Playlist Version="1.0">
+<Add Test="UnitTesting.Controller.Category.CategoryReadAll" />
+<Add Test="UnitTesting.Controller.Category.CategoryCreate" />
+<Add Test="UnitTesting.Controller.Category.CategoryUpdate" />
+<Add Test="UnitTesting.Controller.Category.CategoryDelete" />
+<Add Test="UnitTesting.Controller.Category.CategoryRead" />
+</Playlist>
